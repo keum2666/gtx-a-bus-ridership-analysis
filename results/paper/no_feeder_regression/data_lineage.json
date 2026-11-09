@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "path": "results/analysis/feeder_bus/tables/H11a_격자별_공급구조_GTX역행.csv",
+      "sha256": "4da902eda3073923b8b83c01190b9f57e04d0b0195ff16bfec59f1e4e48554bf"
+    },
+    {
+      "path": "results/analysis/feeder_bus/tables/H10a_권역x시간대_광역vsGTX역행.csv",
+      "sha256": "8814cdf5e4c6f309a01804de753b18fa7dc94772aa9e6c414cce64f2aafc8d4e"
+    },
+    {
+      "path": "data/final/gtx_a/S1_126격자_건수기준_기초표.csv",
+      "sha256": "8e3188f0156b6e1c0028a1823e6bd8e5d2eb50dc4e707bf876c0cb71d1a254a0"
+    }
+  ],
+  "N": 126,
+  "morning_hours": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "day_total": 1015,
+  "morning_total": 646,
+  "positive_grid_day": 43,
+  "positive_grid_morning": 38,
+  "correlations_match_existing": true,
+  "regression_performed": false
+}

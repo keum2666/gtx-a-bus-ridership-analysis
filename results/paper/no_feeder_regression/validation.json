@@ -1,0 +1,19 @@
+{
+  "new_manuscript": "references/GTX-A_연구보고서_원고_연계버스회귀제외.md",
+  "original_unchanged": true,
+  "contents_matches_headings": true,
+  "captions": {
+    "tables": 29,
+    "figures": 19
+  },
+  "image_links_verified": 20,
+  "descriptive_and_correlation_sections_complete": true,
+  "feeder_regression_mentions_remaining": 0,
+  "broad_regression_N": 113,
+  "descriptive_and_spearman_N": 126,
+  "figures_visually_reviewed": [
+    17,
+    18,
+    19
+  ]
+}

@@ -30,3 +30,13 @@ PROJECT_AUDIT_*/
 **/.env
 **/.env.*
 materials/references/*.pdf
+
+# 로컬 미팅 자료·임시 빌드 (분석 코드와 최종 결과는 별도 추적)
+/tmp/
+/output/
+/*.pdf
+**/.matplotlib/
+results/presentation/.*/
+results/paper/**/.*/
+results/paper/sources/
+results/paper/tables/.3_3_1_before_alignment.md

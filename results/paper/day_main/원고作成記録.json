@@ -1,0 +1,14 @@
+{
+  "source": "references/GTX-A_연구보고서_원고_출근시간대중심.md",
+  "output": "references/GTX-A_연구보고서_원고_하루전체중심.md",
+  "main_period": "하루 전체",
+  "main_n": 126,
+  "appendix_morning_regression_n": 113,
+  "source_sha256": "b5f28658b9161985c543b3ad1811b8f11fe830609b0fce30206563f178d1c9c7",
+  "tables": 25,
+  "figures": 12,
+  "appendix_tables": 3,
+  "appendix_figures": 1,
+  "stats_directory": "results/paper/day_main/tables",
+  "figures_directory": "results/paper/day_main/figures"
+}

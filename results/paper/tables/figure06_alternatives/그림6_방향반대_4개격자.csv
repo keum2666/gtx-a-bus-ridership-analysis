@@ -1,0 +1,5 @@
+﻿셀 ID,nearest_station,board_2024,board_2025,morning_2024,morning_2025,하루전체_변화량,출근_변화량,day_sign,am_sign,different,opposite,type_id,type_name,direction
+4714,운정중앙,6,2,0,2,-4,2,-1,1,True,True,4,감소·증가 방향이 반대,감소 → 증가
+5703,운정중앙,38,28,6,8,-10,2,-1,1,True,True,4,감소·증가 방향이 반대,감소 → 증가
+6421,운정중앙,49,81,16,9,32,-7,1,-1,True,True,4,감소·증가 방향이 반대,증가 → 감소
+10111,운정중앙,2,3,2,1,1,-1,1,-1,True,True,4,감소·증가 방향이 반대,증가 → 감소

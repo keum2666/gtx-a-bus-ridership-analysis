@@ -1,0 +1,84 @@
+{
+  "자료 기준": "2024-10-17 / 2025-11-06, 교통카드 행 수, 출근 06:00 이상 10:00 미만",
+  "CRS": "EPSG:5179",
+  "공통 전체 지도 범위": [
+    926985.0,
+    1965222.5,
+    943515.0,
+    1986027.5
+  ],
+  "공통 확대 지도 범위": [
+    929889.0828514624,
+    1967344.8956641115,
+    934089.0828514624,
+    1970644.8956641115
+  ],
+  "GTX역 좌표": {
+    "위도": 37.71667,
+    "경도": 126.72833
+  },
+  "검증": {
+    "전체 격자": 63,
+    "불일치": 16,
+    "유지 여부 다름": 12,
+    "감소·증가 방향 반대": 4,
+    "종일 감소·출근 증가": 2,
+    "종일 증가·출근 감소": 2
+  },
+  "기존 생성 코드": "code/03_eda/kakao_period_compare.py",
+  "입력": [
+    {
+      "파일": "data/final/gtx_a/S1_126격자_건수기준_기초표.csv",
+      "sha256": "8e3188f0156b6e1c0028a1823e6bd8e5d2eb50dc4e707bf876c0cb71d1a254a0"
+    },
+    {
+      "파일": "data/processed/gtx_a/16_새데이터_공급구조유지_250m격자.csv",
+      "sha256": "d2675645ce3abd950810e0d680f3595508e5d4b0a6b36e371dbf8da38fe51f39"
+    },
+    {
+      "파일": "data/raw/gtx_a/transport_card/gtx_a_transport_card_20241017_raw_with_coords_api_filled.csv",
+      "sha256": "2950333970dbfe47d8a87fecf945a173e603099b1aafbcf8dd75dc0394b0604b"
+    },
+    {
+      "파일": "data/raw/gtx_a/transport_card/gtx_a_transport_card_20251106_raw_with_coords.csv",
+      "sha256": "70992f06500d3ad05c8a16f443b846fb8df4ee723931b55f22ec1f3ed8209963"
+    },
+    {
+      "파일": "results/paper/tables/3_1_3_격자별_승차건수_변화량.csv",
+      "sha256": "e3e5ecd89c694cea3d6c3c9beda7d33ac47fb997bba17fd37c6bd35b19b5e88b"
+    },
+    {
+      "파일": "data/raw/common/api_cache_gtx_a_routes/HangJeongDong_ver20260701.geojson",
+      "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f"
+    },
+    {
+      "파일": "data/raw/common/grid/빈격자(250m)/빈격자(250m).dbf",
+      "sha256": "4195f659323e9730e0b2b69f80c7c80a99072a7728fedc6c0f8ebfc026769cca"
+    },
+    {
+      "파일": "data/raw/common/grid/빈격자(250m)/빈격자(250m).prj",
+      "sha256": "0c549431311685a7f58ce669878c50db7b4d77d5b27e4a3c942067b8654bbe48"
+    },
+    {
+      "파일": "data/raw/common/grid/빈격자(250m)/빈격자(250m).shp",
+      "sha256": "a9447999ced13a30f1a71d96fa611ca3057e2e1fd37f9199374102d7c3953222"
+    },
+    {
+      "파일": "data/raw/common/grid/빈격자(250m)/빈격자(250m).shx",
+      "sha256": "28a257e7030b250cdc0ebd1bb496a011f3ae20397c3a940463579677047d4493"
+    }
+  ],
+  "기존 파일 수정 여부": "변경 없음",
+  "기존 파일 SHA256": {
+    "code/03_eda/kakao_period_compare.py": "4e3442f41195b74df567d2c73e97574bbc66ef6e033fb345e28cb4d6a6a18196",
+    "code/03_eda/논문용_사진.ipynb": "5e91284f0a2282f2a09ad93a956676d6d24a8d193d5f2e4919f8e06508620002",
+    "results/paper/figures/그림06_운정중앙_광역버스_시간대_통합지도.png": "fca110c3392bd21807e3b9c3ff463e3885cc745b42a85de0f4154ddee5b9ec16",
+    "results/paper/figures/그림06_운정중앙_광역버스_시간대_통합지도.pdf": "fea349ea56e9429a5d07adce0dca8381e2f0ec63e27ab36b67abc87cc39f28a5"
+  },
+  "PNG 해상도(dpi)": 400,
+  "출력 PNG": [
+    "results/paper/figures/figure06_alternatives/대안1_운정중앙_변화유형화_지도.png",
+    "results/paper/figures/figure06_alternatives/대안2_운정중앙_대각선분할_지도.png",
+    "results/paper/figures/figure06_alternatives/대안3_운정중앙_생키와_요약지도.png"
+  ]
+}
